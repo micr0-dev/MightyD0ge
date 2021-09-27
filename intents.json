@@ -1,0 +1,134 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Hola",
+          "What's up",
+          "Sup"
+        ],
+        "responses": [
+          "Hey ^-^",
+          "Hello, thanks for stopping by",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "greetingQ1",
+        "patterns": [
+          "How are you",
+          "How is your day?"
+        ],
+        "responses": [
+          "I am good",
+          "All is good",
+          "I am superb"
+        ]
+      },
+      {
+        "tag": "greetingQ2",
+        "patterns": [
+          "What's popping",
+          "What are you up to?"
+        ],
+        "responses": [
+          "Nothing much just chilling here",
+          "Helpping people root their devices ^w^",
+          "Trying to make sure no one bricks their device lol"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Cya"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "No Problem!"]
+      },
+      {
+        "tag": "sorry",
+        "patterns": ["You can't", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["My bad", "Sorry ._.", "Sowwy"]
+      },
+      {
+        "tag": "idle",
+        "patterns": ["Ok", "No", "Wait", "Stop", "Yes","pog"],
+        "responses": [""]
+      },
+      {
+        "tag": "rootingWhich",
+        "patterns": [
+          "Which devices can I root?",
+          "What is easy to root?",
+          "Should I root my phone"
+        ],
+        "responses": [
+          "It is very easy to root Pixel devices.",
+          "It is superbly easy to root any Nexus and Pixel devices."
+        ]
+      },
+      {
+        "tag": "rootingHow",
+        "patterns": [
+          "How do I root my device?",
+          "I want to root my phone",
+          "how root sim data to unlimited on redmi not 3 pls help",
+          "how possible root redmi 8 to mi 11 ultra 5g? please",
+          "How do i root My pixel 4a 5G",
+          "guys how to root huawei y5 prime 2018",
+          "How to Root Google Pixel (2, 3/a, 4/a & XL) on Android 11",
+          "How do i root My oneplus 8 5g",
+          "how do i get root back?"
+        ],
+        "responses": [
+          "You have to unlock your bootloader and then install magisk! You should watch this video to help you: https://www.youtube.com/watch?v=sPvnmgon89U",
+          "It is fairly simple! Watch this video by squabbi to help you: https://www.youtube.com/watch?v=sPvnmgon89U",
+          "Maowdroid is here to help! We have a video to help you :)) https://www.youtube.com/watch?v=sPvnmgon89U"
+        ]
+      },
+      {
+        "tag": "safetynet",
+        "patterns": [
+          "My banking app doesn't let me in.",
+          "How do I fix safety net",
+          "it is giving me and Attestation error",
+          "is there any fix for pixel safetynet fix on latest build yet?",
+          "does anyone know hwo to get the phone to pass SafetyNet specifically ctsprofile?",
+          "i have all play stuff blocked with magiskhide, im failing cts profile",
+          "I need to install that safetynet-fix",
+          "Anyone knows why we get SafetyNet error?",
+          "hi, I just rooted my phone and did magiskhide but my ctsprofile is not passing still. he mentioned this in the video saying there was a workaround but there is no link for it. any help?"
+        ],
+        "responses": [
+          "Here is the current guide to fixing SafetyNet: https://www.thecustomdroid.com/fix-safetynet-hardware-attestation-guide/",
+          "Here this should help: https://www.thecustomdroid.com/fix-safetynet-hardware-attestation-guide/"
+        ]
+      },
+      {
+        "tag": "squabbi",
+        "patterns": [
+          "Who is Squabbi?",
+          "Who is Maowdroid?",
+          "Squabbi respond please"
+        ],
+        "responses": [
+          "Squabbi is the creator of MaowDroid. MaowDroid consists of only him at the moment. He is the owner of the server. He lives in Australia, so his timezone is different from most users here. He loves technology, mostly consumer desktop and laptops, mobile technology in the phone department; and now recently mechanical keyboards.",
+          "MaowDroid was created by Squabbi. At the time, MaowDroid is simply him. He is the server's owner. Because he resides in Australia, his timezone differs from that of the majority of people here. He is a huge fan of technology, particularly consumer desktop and laptop computers, mobile technologies in the phone industry, and, more lately, mechanical keyboards. ",
+          "Squabbi is the founder and ceo of MaowDroid. As of right now, MaowDroid is just him. He is the server's owner. He resides in Australia, thus his timezone differs from that of the majority of folks here. He is a huge fan of technology, specificly consumer desktop and laptop computers, mobile phone technologies, and mechanical keyboards. "
+        ]
+      }
+    ]
+  }
+  
